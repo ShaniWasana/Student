@@ -1,5 +1,5 @@
 #root{
-    background-image: url("../assets/unnamed.jpg");
+    background-image: url("../assets/unnamedpurple.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10x;
@@ -18,7 +18,7 @@
 }
 .box{
     background-color: rgb(26, 24, 24);
-    border-color: rgb(28, 88, 16);
+    border-color:  rgb(85, 0, 134);
     width: 400px;
     height: 400px;
     position: relative;
@@ -36,6 +36,8 @@ h4{
     
 }
 .textbox{
+   margin-top: 5px;
+   margin-bottom: 6px;
     border-radius: 20px;
     width:130%;
     
@@ -45,8 +47,8 @@ h4{
     border-radius: 40px;
     height: 40px;
     width:130%;
-   
-    background-color: rgb(28, 88, 16);
+   border-color: black;
+    background-color: rgb(85, 0, 134);
 }
 
 .forget{
@@ -62,5 +64,5 @@ h4{
 
 }
 #SignUp{
-    color: rgb(28, 88, 16);
+    color:  rgb(140, 138, 141);
 }

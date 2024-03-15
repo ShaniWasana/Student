@@ -18,7 +18,7 @@
 }
 .box{
     background-color: rgb(26, 24, 24);
-    border-color:  rgb(85, 0, 134);
+    border-color: rgb(85, 0, 134);
     width: 400px;
     height: 400px;
     position: relative;
@@ -27,6 +27,7 @@
     border-radius: 20px;
     opacity: 75%;
     z-index: 1;
+    /*rgb(85, 0, 134)*/
     
 }
 h4{
@@ -48,7 +49,7 @@ h4{
     height: 40px;
     width:130%;
    border-color: black;
-    background-color: rgb(85, 0, 134);
+    background-color:  rgb(85, 0, 134);
 }
 
 .forget{

@@ -1,5 +1,6 @@
-import NavBar from './Components/NavBar'
+
 import React from 'react'
+
 import SignInPage from './pages/SignInPage'
 
 function App() {

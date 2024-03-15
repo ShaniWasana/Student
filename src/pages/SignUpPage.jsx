@@ -1,10 +1,10 @@
 import React from 'react'
 
 import '../pages/SignInPage.css'
-import SignUpPage from './SignUpPage'
 
 
-export default function SignInPage() {
+
+export default function SignUpPage() {
   return (
 
     <div className='row image '>
@@ -27,9 +27,27 @@ export default function SignInPage() {
             
             
           </tr>
+          <tr>
+            <span>Email :</span>
+            <br />
+          </tr>
+          <tr>
+            <input type='text' className='textbox' />
+           
+            
+          </tr>
           
           <tr>
             <span>Password :</span>
+            <br />
+          </tr>
+          <tr>
+            <input type='password' className='textbox' />
+           
+            
+          </tr>
+          <tr>
+            <span>Confirm Password :</span>
             <br />
           </tr>
           <tr>
@@ -46,7 +64,9 @@ export default function SignInPage() {
           
           <tr >
           
-          <button className='button' >Sign In</button>
+          <button className='button' onClick={()=>{
+            <SignUpPage/>
+          }}>Sign In</button>
           </tr>
           <tr>
             <span className='Signup'>Don't have an Account ?

@@ -1,0 +1,66 @@
+#root{
+    background-image: url("../assets/unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10x;
+    height: 620px;
+}
+.LoginDetails{
+    color: rgb(245, 245, 245);
+    left: 60px;
+    position :relative;
+    z-index: 2;
+    top: -280px;
+   
+   
+   
+  
+}
+.box{
+    background-color: rgb(26, 24, 24);
+    border-color: rgb(28, 88, 16);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 0px;
+    top: 80px;
+    border-radius: 20px;
+    opacity: 75%;
+    z-index: 1;
+    
+}
+h4{
+    position: relative;
+    left: 100px;
+    
+    
+}
+.textbox{
+    border-radius: 20px;
+    width:130%;
+    
+}
+.button{
+    color: aliceblue;
+    border-radius: 40px;
+    height: 40px;
+    width:130%;
+   
+    background-color: rgb(28, 88, 16);
+}
+
+.forget{
+    font-size: small;
+    position: relative;
+    left: 185px;
+
+}
+.Signup{
+    font-size: small;
+    position: relative;
+    left: 60px;
+
+}
+#SignUp{
+    color: rgb(28, 88, 16);
+}

@@ -2,12 +2,14 @@
 import React from 'react'
 
 
-import AddStudentPage from './pages/AddStudent/AddStudentPage'
+import SignInPage from './pages/SignInPage/SignInPage'
+import SignUpPage from './pages/SignUpPage/SignUpPage'
 
 function App() {
   return (
     <>
-    <AddStudentPage/></>
+    <SignInPage/>
+    </>
    
   )
 }

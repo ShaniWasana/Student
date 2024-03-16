@@ -60,14 +60,15 @@ h5{
     color: black;
    margin-bottom: -10px;
 }
-#btn1{
-    background-color: rgb(194, 96, 96);
+.information{
+    position: relative;
+    left: 200px;
+    top: -30px;
 }
 .textBox{
-    width: 300px;
     border-radius: 30px;
     border-color: rgb(194, 96, 96);
-    margin-top: 20px;
+    margin-top: 5px;
 }
 span{
     color:rgb(122, 51, 51) ;
@@ -83,83 +84,9 @@ span{
 #btn:hover{
     border-color: black;
     background-color: rgb(146, 98, 34);
-    
+    left: 150px;
     color: aliceblue;
     position: relative;
     margin-top: 10px;
 }
 
-
-
-
-/*#root{
-    background-image: url("/src/assets/unnamedpurple.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 10x;
-    height: 620px;
-}
-.LoginDetails{
-    color: rgb(245, 245, 245);
-    left: 60px;
-    position :relative;
-    z-index: 2;
-    top: -280px;
-   
-   
-   
-  
-}
-.box{
-    background-color: rgb(26, 24, 24);
-    border-color: rgb(85, 0, 134);
-    width: 400px;
-    height: 400px;
-    position: relative;
-    left: 0px;
-    top: 80px;
-    border-radius: 20px;
-    opacity: 75%;
-    z-index: 1;
-    /*rgb(85, 0, 134)
-    
-}
-h4{
-    position: relative;
-    left: 100px;
-    
-    
-}
-.textbox{
-   margin-top: 5px;
-   margin-bottom: 6px;
-    border-radius: 20px;
-    width:130%;
-    
-}
-.button{
-    color: aliceblue;
-    border-radius: 40px;
-    height: 40px;
-    width:130%;
-    position: relative;
-   left: 1px;
-    background-color:  rgb(85, 0, 134);
-}
-
-.forget{
-    font-size: small;
-    position: relative;
-    left: 185px;
-
-}
-.Signup{
-    font-size: small;
-    position: relative;
-    left: 60px;
-
-}
-#SignUp{
-    color:  rgb(140, 138, 141);
-}
-*/

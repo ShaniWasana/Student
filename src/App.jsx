@@ -1,13 +1,14 @@
 
 import React from 'react'
 
-import SignInPage from './pages/SignInPage'
+
+import AddStudentPage from './pages/AddStudent/AddStudentPage'
 
 function App() {
   return (
     <>
-    <SignInPage/>
-    </>
+    <AddStudentPage/></>
+   
   )
 }
 

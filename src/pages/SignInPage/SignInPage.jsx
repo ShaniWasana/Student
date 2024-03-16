@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../pages/SignInPage.css'
-import SignUpPage from './SignUpPage'
+import SignUpPage from '../SignUpPage/SignUpPage'
 
 
 export default function SignInPage() {

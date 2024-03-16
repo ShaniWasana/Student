@@ -1,5 +1,5 @@
 import React from 'react'
-import SignInPage from '../pages/SignInPage'
+import '../NavBar/NavBar.css'
 
 export default function NavBar() {
     return (
